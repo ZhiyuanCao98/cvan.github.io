@@ -1,0 +1,220 @@
+<!DOTYPE html>
+<html>
+<title>Cvanzy</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Frank Ruhl Libre', sans-serif;}
+body, html {
+  height: 100%!important;
+  color: #4a4a4a;
+  line-height: 1.8;
+  background-color:	#FFFAF0;
+}
+
+/* First Parallax Image */
+.paImg1 {
+  background-image: url('photo1.jpg');
+  width: 100%;
+  min-height: 100%;
+}
+
+.paImg2 {
+  background-image: url('img2.jpg');
+  width: 100%;
+   min-height: 500px;
+   position: relative;
+}
+
+.paImg3 {
+  background-image: url('img3.jpg');
+   width: 100%;
+   height: 500px;
+   position: relative;
+}
+
+
+/* Parallax Scrolling Effect */
+.paImg1,.paImg2,.paImg3 {
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+
+}
+
+</style>
+
+<body>
+<!-- Nav (always keep on top) -->
+<div class="top opacity-min ">
+  <div class="bar">
+    <a href="#home" class ="bar-item button"><i class="fa fa-home"></i>HOME</a>
+    <a href="#about" class ="bar-item button"><i class="fa fa-user"></i>ABOUT</a>
+    <a href="#projects" class ="bar-item button"><i class="fa fa-list"></i>PROJECTS</a>
+    <a href="#contact" class ="bar-item button"><i class="fa fa-envelope"></i>CONTACT</a>
+  </div>
+  <!-- nav on a small screen -->
+</div>
+
+<!-- First Parallax Image -->
+<div class = "paImg1" style ="opacity: 0.9" id="home">
+  <span class="padding-30-60 display-middle black xlarge"> Welcome to Zhiyuan Cao's Website </span>
+</div>
+
+
+<!-- Container (About Section) -->
+<div class="content container" id="about">
+  <img src="aboutMe.jpg" class="about-me" alt="About me">
+  <p class="text-center"><em>I love .</em></p>
+
+  <div class ="row">
+    <div class="col width-half text-center">
+      <p><b><i class="fa fa-user xlarge margin-right-16 padding-left-100"></i>Zhiyuan Cao</b></p><br>
+      <img src="selfphoto.jpg" class="round hover-opacity-on padding-left-100" alt="Photo of Me" width="500" height= auto>
+    </div>
+
+    <div class="col width-30 text-center padding-right-200">
+      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+
+
+  <p class="xlarge text-center width-100">Im really good at:</p>
+  <p class="w3-wide text-center widht-100"><i class="fa fa-camera"></i>Photography</p>
+  <div class="process-bar">
+    <div class="process" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide text-center widht-100"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="process-bar">
+    <div class="process" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide  text-center widht-100"><i class="fa fa-photo"></i>Photoshop</p>
+  <div class="process-bar">
+    <div class="process" style="width:75%">75%</div>
+  </div>
+</div>
+
+<div class="row center dark-grey margin-top-50">
+  <div class="quarter text-center">
+    <span class="xlarge ">14+</span><br>
+    Partners
+  </div>
+  <div class="quarter text-center">
+    <span class="xlarge">55+</span><br>
+    Projects Done
+  </div>
+  <div class="quarter text-center">
+    <span class="xlarge">89+</span><br>
+    Happy Clients
+  </div>
+  <div class="quarter text-center">
+    <span class="xlarge">150+</span><br>
+    Meetings
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class = "paImg2">
+  <div class= "display-middle" >
+  <span class="black xxlarge opacity-middle" style="letter-spacing:10px; padding: 10px 100px;">Projects</span>
+</div>
+</div>
+
+
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="projects">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+</div>
+
+<div class = "paImg3">
+  <div class= "display-middle">
+  <span class="black xxlarge opacity-middle" style="letter-spacing:10px; padding: 10px 100px;">Contact me</span>
+</div>
+
+<div class="content" style="padding-top:50px" id="contact">
+  <h3 class="text-center xxlarge" style="margin-top: 500px">WHERE I WORK</h3>
+  <p class="text-center"><em>I'd love your feedback!</em></p>
+
+  <div class="row">
+    <div class="col width-30">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="greyscale" style="width:500px;height:300px; margin-left:200px;border-radius: 30px"></div>
+    </div>
+    <div class="col w3-panel" style="margin-left: 300px">
+      <div class="xlarge margin-bottom" style = "border-style: solid">
+        <i class="fa fa-map-marker fa-fw xxlarge margin-right-22 margin-button-40"></i> Boston, US<br>
+        <i class="fa fa-phone fa-fw xxlarge margin-right-22 margin-button-40"></i> Phone: 1-617-6785890<br>
+        <i class="fa fa-envelope fa-fw xxlarge margin-right-22 "></i> Email: cao.zhi@husky.neu.edu<br>
+      </div>
+      <p class = " xlarge">Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+
+      <!-- I can not do it now!
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    -->
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- Footer -->
+<footer class=" hover-opacity-off "style = "margin-top:500px; background-color: #00004d">
+  <a href="#home" class="button wlight-grey" style = " float: left; margin-left: 700px; margin-top:20px; margin-right: 100px;
+  padding: 10px 10px; background-color: #fff; border-radius: 40px"><i class="fa fa-arrow-up xlarge"></i>Back To Top</a>
+  <div class="xlarge" style="color:#fff">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p style = "color: #fff">Powered by <a href="#about" style = "color: #b3b3ff">Zhiyuan Cao</a></p>
+</footer>
+
+
+
+<script>
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('googleMap'), {
+      center: {lat: 42.4094274, lng:-71.0758689},
+      zoom: 11,
+      draggable: true,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+    });
+
+    myCenter=new google.maps.LatLng(42.4094274, -71.0758689);
+    var marker = new google.maps.Marker({
+      position: myCenter,
+    });
+    marker.setMap(map);
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1c8Q4bYQo_zS8a4LnAGCyUPfEXga4AKw&callback=initMap"
+async defer></script>
+
+</body>
+</html>
